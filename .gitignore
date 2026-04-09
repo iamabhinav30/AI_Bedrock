@@ -1,0 +1,11 @@
+# Environment variables - never commit credentials
+.env
+.env.*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
