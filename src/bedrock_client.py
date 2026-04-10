@@ -12,3 +12,5 @@ client = boto3.client(
 )
 
 model_id = 'apac.anthropic.claude-sonnet-4-20250514-v1:0'
+
+
