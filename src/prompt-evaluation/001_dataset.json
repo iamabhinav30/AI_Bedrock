@@ -1,0 +1,17 @@
+[
+    {
+        "task": "Write a Python function that takes a list of AWS EC2 instance IDs and returns a list of their corresponding instance types.",
+        "format": "python",
+        "solution_criteria": "The function should correctly map the instance IDs to their corresponding instance types using the AWS SDK or API."
+    },
+    {
+        "task": "Create a JSON object that represents an AWS Lambda function configuration, including the function name, runtime, handler, and environment variables.",
+        "format": "json",
+        "solution_criteria": "The JSON object should be valid and include all the necessary configuration properties for an AWS Lambda function."
+    },
+    {
+        "task": "Write a regular expression that can validate an AWS S3 bucket name. The bucket name should be between 3 and 63 characters long, and can only contain lowercase letters, numbers, and hyphens.",
+        "format": "regex",
+        "solution_criteria": "The regular expression should correctly validate the bucket name format according to the AWS S3 bucket naming conventions."
+    }
+]

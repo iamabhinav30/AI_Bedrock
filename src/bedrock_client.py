@@ -11,6 +11,8 @@ client = boto3.client(
     aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY')
 )
 
-model_id = 'apac.anthropic.claude-sonnet-4-20250514-v1:0'
+model_id_sonnet4 = 'apac.anthropic.claude-sonnet-4-20250514-v1:0'
+
+model_id_haiku = 'apac.anthropic.claude-3-haiku-20240307-v1:0'
 
 
