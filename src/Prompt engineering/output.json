@@ -1,0 +1,23 @@
+[
+  {
+    "output": "Here is a one-day meal plan for a powerlifter aiming for strength gains while managing lactose intolerance:\n\n* **Calorie Target:** Approximately 3200 calories\n* **Macronutrient Breakdown:** Protein (190g), Fat (110g), Carbs (380g)\n\n**Meal Plan:**\n\n* **Breakfast (7:00 AM):** Scrambled eggs (3 whole eggs, 150g) with oats (80g dry weight), banana (120g), and almond butter (25g). Lactose-free milk (240g).\n  * Protein: 35g, Fat: 30g, Carbs: 85g\n\n* **Pre-Workout (10:30 AM):** White rice (60g dry weight) with honey (20g) and a pinch of salt.\n  * Protein: 5g, Fat: 1g, Carbs: 70g\n\n* **Post-Workout (12:30 PM):** Lean ground beef (150g) with white rice (80g dry weight) and mixed vegetables (100g) saut\u00e9ed in olive oil (15g).\n  * Protein: 45g, Fat: 25g, Carbs: 85g\n\n* **Afternoon Snack (4:00 PM):** Tuna (1 can, 150g) with sweet potato (200g baked) and avocado (80g).\n  * Protein: 35g, Fat: 20g, Carbs: 45g\n\n* **Dinner (7:00 PM):** Grilled chicken thighs (180g) with quinoa (75g dry weight), roasted vegetables (150g), and olive oil dressing (20g).\n  * Protein: 50g, Fat: 25g, Carbs: 70g\n\n* **Evening Snack (9:30 PM):** Lactose-free Greek yogurt alternative (200g) with mixed nuts (30g) and berries (100g).\n  * Protein: 20g, Fat: 18g, Carbs: 25g\n\nThis meal plan emphasizes high-quality protein sources, complex carbohydrates for energy, and healthy fats to support muscle growth and recovery. All dairy products are lactose-free alternatives, and timing is optimized around training sessions for maximum strength gains.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "95",
+        "goal": "powerlifting strength gains",
+        "restrictions": "lactose intolerant"
+      },
+      "solution_criteria": [
+        "Provides a complete 1-day meal plan",
+        "Meets high calorie needs (3500+ calories)",
+        "Includes high protein content for powerlifting",
+        "Avoids lactose-containing foods"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a powerlifter who needs high protein intake (3500+ calories) and has a lactose intolerance dietary restriction"
+    },
+    "score": 6,
+    "reasoning": "The solution meets all mandatory requirements but has a significant deficiency in meeting the high calorie needs criterion, providing only 3200 calories instead of the required 3500+. Additionally, there are mathematical inconsistencies in the macronutrient calculations that reduce confidence in the accuracy of the plan."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "95",
+      "goal": "powerlifting strength gains",
+      "restrictions": "lactose intolerant"
+    },
+    "solution_criteria": [
+      "Provides a complete 1-day meal plan",
+      "Meets high calorie needs (3500+ calories)",
+      "Includes high protein content for powerlifting",
+      "Avoids lactose-containing foods"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a powerlifter who needs high protein intake (3500+ calories) and has a lactose intolerance dietary restriction"
+  }
+]

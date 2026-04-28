@@ -1,17 +1,17 @@
 [
     {
-        "task": "Write a Python function that takes a list of AWS EC2 instance IDs and returns a list of their corresponding instance types.",
+        "task": "Write a Python function to list all the S3 buckets in an AWS account.",
         "format": "python",
-        "solution_criteria": "The function should correctly map the instance IDs to their corresponding instance types using the AWS SDK or API."
+        "solution_criteria": "The function should use the AWS SDK for Python (Boto3) to list all the S3 buckets in the account. It should return a list of bucket names."
     },
     {
-        "task": "Create a JSON object that represents an AWS Lambda function configuration, including the function name, runtime, handler, and environment variables.",
+        "task": "Create a JSON object that represents an AWS Lambda function configuration, including the function name, runtime, handler, and role.",
         "format": "json",
-        "solution_criteria": "The JSON object should be valid and include all the necessary configuration properties for an AWS Lambda function."
+        "solution_criteria": "The JSON object should have the following keys: 'FunctionName', 'Runtime', 'Handler', and 'Role'. The values should be appropriate for a basic AWS Lambda function."
     },
     {
-        "task": "Write a regular expression that can validate an AWS S3 bucket name. The bucket name should be between 3 and 63 characters long, and can only contain lowercase letters, numbers, and hyphens.",
+        "task": "Write a regular expression to validate an AWS IAM policy document.",
         "format": "regex",
-        "solution_criteria": "The regular expression should correctly validate the bucket name format according to the AWS S3 bucket naming conventions."
+        "solution_criteria": "The regular expression should validate that the input string is a valid JSON document and that it contains the required keys and structure of an AWS IAM policy document."
     }
 ]
